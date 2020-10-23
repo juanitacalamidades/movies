@@ -1,0 +1,387 @@
+
+
+
+#type {
+    font-family: 'Amatic SC', cursive;
+    font-size: 55px;
+    margin-right: 10px;
+    margin-left: 10px;
+   
+
+}
+#type2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    margin-right: 10px;
+    margin-left: 10px;
+    animation-name: title;
+    animation-duration: 6s;
+}
+#typeSub{
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+   
+
+}
+@keyframes title{
+    from {color: white;}
+    to {color:black;}
+}
+
+#typeSub1{
+    display: flex;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    animation-name: title;
+    animation-duration: 6s;
+    margin-left: 15px;
+    margin-top: 25px;
+    align-items: baseline;
+    
+}
+
+
+#typeDiv:link{
+    font-family: 'Amatic SC', cursive;
+   
+    text-decoration: none;
+    animation-name: nav;
+    animation-duration: 4s;
+    align-items: center;
+    font-size: 20px;
+    
+
+}
+
+@keyframes nav{
+    from {color: white;}
+    to {color:black;}
+}
+#typeFooter{
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    color: #93959c;;
+    align-items: flex-start;
+}
+
+
+
+.header{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+    padding: 2px;
+    margin-left: 120px;
+    margin-right: 100px;
+    align-items: center;
+   
+}
+
+.header1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+   
+    
+}
+
+#header2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Amatic SC', cursive;
+    
+}
+
+
+   
+    
+
+
+#div2 {
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 20px; 
+    border: dotted;
+    margin: 20px 20px 20px 20px;
+    font-size: 20px;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgba(128, 18, 168, 0.2);
+    
+
+ }
+ #dropbtn{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+ }
+
+
+ .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdownContent{
+    display: none;
+    position: sticky;
+    background-color: #f9f9f9;
+    min-width: 160px;
+
+    z-index: 1;
+
+  }
+
+.dropdown:hover .dropdownContent{
+    display: block;
+}
+ 
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 80px;
+    
+}
+
+
+
+
+
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    text-align: justify;    
+    padding: 10px;
+    margin-left: 70px;
+    margin-right: 50px;
+    
+    
+  
+}
+ #parrafo{
+     display: flex;
+     text-align: justify;
+     padding-right: 50px;
+     padding-left: 50px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+    margin-left: 70px;
+    margin-right: 60px;
+    align-items: center;
+    font-size: 18px;
+    text-decoration: none;
+      
+ }
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    margin-right: 50px; 
+    background-color: #141426;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+#divFooter{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-around;
+    font-family: 'Amatic SC', cursive;
+    margin-left: 120px;
+    margin-right: 100px;
+    
+   
+
+}
+
+.headerCatalogo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-right: 300px;
+    align-items: center;
+    text-align: justify;
+}
+
+#div3{
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 20px; 
+    border: dotted;
+    margin: 20px 20px 20px 20px;
+    font-size: 20px;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgba(128, 18, 168, 0.2);
+
+}
+
+#div4{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+#div1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-right: 150px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    margin-left: 20px;
+    flex-direction: row;
+  
+    
+
+   
+}
+#img{
+    width: 200px;
+    height: 300px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 3px;
+    box-shadow: 8px 8px 8px rgba(128, 18, 168, 0.2);
+}
+#text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Amatic SC', cursive;  
+    font-size: 18px;
+    text-align: center;
+    margin-left: 10px;
+}
+#titleMovie{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 15px;
+    margin-bottom: 30px;
+  
+    
+    
+}
+
+#divs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+
+}
+#divv{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+#btn{
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+ }
+
+ #card{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     text-align: justify;
+     align-items: center;
+     flex-wrap: wrap;
+     width: 260px;
+     height: 450px;
+     margin: 30px 30px 30px 30px;
+     padding: 10px;
+    
+     
+     
+ }
+
+ .card:hover{
+    box-shadow: 0 8px 16px 0 rgba(228, 36, 109, 0.2);
+ }
+
+ .main3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 80px;
+    animation-name: nav;
+    animation-duration: 4s;
+}
+.textCard{
+    
+    font-family: 'Amatic SC', cursive;  
+    font-size: 18px;
+   
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+
+}
+
+
+.divMil{
+    display: flex;
+    justify-self: center;
+    flex-direction: row;
+    align-items: baseline;
+    font-family: 'Amatic SC', cursive;  
+    font-size: 18px;
+    z-index: 3;
+}
+
+.ultDiv{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
